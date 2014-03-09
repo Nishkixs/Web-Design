@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Construction Company Website</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>	
+	<script src="js/jquery.slides.min.js"></script>	
+	  <script>
+	    $(function(){
+	      $("#slides").slidesjs({
+	        width: 940,
+	        height: 368,
+	        navigation: {
+	                  active: false,
+	                },
+	       	pagination: {
+	       		active: false,
+	       		},
+	       	play: {
+	       		auto: true
+	       	}      
+	      });
+	    });
+	  </script>
+</head>
+<body>
+	<div class="container_12">
+		<header>
+			<div class="logo grid_9">Company</div>
+			<div class="search grid_3">
+				<form method="get" action="" id="search-form">
+					<input type="text" name="search" value="" placeholder="Enter your search terms here..." />
+					<input type="submit" name="submit" value="" />
+				</form>
+			</div>
+		</header>
+		<!-- header end -->
+		
+		<nav>
+			<div class="grid_12 navigation">
+				<ul>
+					<li><a class="active" href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- nav end -->
+		
+		<section>
+			<div id="slides" class="grid_12">
+			  <img src="images/slider/slide1.png">
+			  <img src="images/slider/slide2.png">
+			  <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/slider/previous.png" alt="" /></a>
+			  <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/slider/next.png" alt="" /></a>
+			  
+			</div>
+			<div class="services grid_12">
+				<h1>Services</h1>
+				<ul class="push_2">
+					<li class="construction"><h3><a href="http://">Construction</a></h3></li>
+					<li class="push_1 logistics"><h3><a href="http://">Logistics</a></h3></li>
+					<li class="push_2 transport"><h3><a href="http://">Transport</a></h3></li>
+				</ul>
+			</div>
+			<div class="projects grid_12">
+				<h1>Projects</h1>
+				<ul class="push_1">
+					<li class="grid_2"><a href="http://"><img src="images/projects/project1.png" alt="project 1" /><h4>Project 1</h4></a></li>
+					<li class="grid_2"><a href="http://"><img src="images/projects/project1.png" alt="project 1" /><h4>Project 1</h4></a></li>
+					<li class="grid_2"><a href="http://"><img src="images/projects/project1.png" alt="project 1" /><h4>Project 1</h4></a></li>
+					<li class="grid_2"><a href="http://"><img src="images/projects/project1.png" alt="project 1" /><h4>Project 1</h4></a></li>
+					<li class="grid_2"><a href="http://"><img src="images/projects/project1.png" alt="project 1" /><h4>Project 1</h4></a></li>
+
+				</ul>
+			</div>
+			<div class="about grid_5">
+				<h1>About Us</h1>
+				<p class="push_1 grid_4">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					
+					<br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					
+					<br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+			<!-- about end -->
+			<div class="news grid_5 push_2">
+				<h1>Latest News</h1>
+				<div class="article">
+				<span class="date">01/12/13</span><span class="headline grid_4"><a href="#">Lorem ipsum dolor sit ipsum dolor ipsum doloripsum doloripsum dolor</a> </span>
+				<p class="prefix_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+				<span class="readmore"><a href="#">Read More...</a></span>
+				</div>
+				<!-- article ends -->
+				
+				<div class="article">
+				<span class="date">01/12/13</span><span class="headline grid_4"><a href="#">Lorem ipsum dolor sit ipsum dolor ipsum doloripsum doloripsum dolor</a> </span>
+				<p class="prefix_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+				<span class="readmore"><a href="#">Read More...</a></span>
+				</div>
+				<!-- article ends -->
+			</div>
+			<!-- news end -->
+			<div class="clients grid_12">
+				<h1>Our Clients</h1>
+				<ul>
+					<li><a href="#"><img src="images/clients/client1.png" alt="client" /></a></li>
+					<li><a href="#"><img src="images/clients/client2.png" alt="client" /></a></li>
+					<li><a href="#"><img src="images/clients/client3.png" alt="client" /></a></li>
+					<li><a href="#"><img src="images/clients/client4.png" alt="client" /></a></li>
+					<li><a href="#"><img src="images/clients/client5.png" alt="client" /></a></li>
+					<li><a href="#"><img src="images/clients/client6.png" alt="client" /></a></li>
+				</ul>
+			</div>
+			<!-- clients end -->
+		</section>
+		<!-- section end-->
+		
+		<footer>
+			<div class="footer grid_12">
+				<div class="address prefix_1 grid_4">
+				<p>
+				Address:<br />
+				#123, Street Name, Area Name<br />
+				City Name, State, Post Code, Country<br /><br />
+				Email:<br />
+				email@company.com<br /><br />
+				Phone:<br />
+				+1113333333<br /><br />
+				Fax:<br />
+				+1333333333
+				</p>
+				</div>
+				
+				<div class="message grid_4 prefix_2">
+				<p>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
+				</p>
+				</div>
+			</div>
+			
+			<div class="copyright grid_12">Copyright &copy; Company 2013. All rights reserved.</div>
+		</footer>
+		<!-- footer end -->
+	</div>
+	<!-- container_12 end -->
+</body>
+</html>
